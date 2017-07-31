@@ -1,0 +1,154 @@
+@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.otf');
+}
+
+body {
+  font-family: 'Helvetica';
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.top-header .navbar {
+  background-color:white;
+  border:0;
+  border-radius:0;
+  min-height:80px;
+}
+
+.top-header .navbar-brand img {
+  max-width: 279px;
+  max-height: 100px;
+  margin-left: 8px;
+}
+.top-header .navbar-toggle {
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.top-header .navbar-toggle .icon-bar {
+    background-color: #bfbfbf;
+}
+
+.top-header .navbar-toggle:hover,.top-header .navbar-toggle:focus {
+  background: #e6e6e6;
+}
+
+.header .navbar {
+  background-color:#565759;
+  border:0;
+  border-radius:0;
+  margin-bottom:0;
+  min-height: 76px;
+}
+
+.header .navbar-default .navbar-nav>li>a {
+  color: #aaaaab;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 20pt;
+  line-height: 43px;
+
+}
+
+.header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #565759;
+    color: #FFF;
+
+}
+
+
+.search-form {
+  float:right;
+  margin-top: 13px;
+}
+
+.main-bg img {
+  object-fit: cover;
+  height:600px;
+  width:100%;
+}
+
+.blue-one {
+  background:#6ec4e9;
+  padding:110px 0;
+  height:auto;
+  color:#fff;
+  text-align:justify;
+}
+
+.album {
+    padding:100px 0;
+}
+
+.album img {
+  max-width:570px;
+  max-height:579px;
+}
+
+.album .row {
+  margin-bottom:18px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 50px;
+    border: 0;
+    border-top: 1px solid #000;
+    width: 100%;
+}
+
+.client h1 {
+  color:#6ec4e9;
+}
+
+.client img {
+  max-width: 270px;
+  height: 162px;
+  border: 1px solid;
+}
+
+.client {
+  margin-bottom: 80px;
+}
+
+.word {
+  background:#6ec4e9;
+  color:#fff;
+  text-align:justify;
+  padding:50px 0;
+}
+
+.footer {
+  background: #555759;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin:0px 8px;
+}
+
+.footer ul {
+  float: right;
+}
+
+.footer .copyright {
+  color: #fff;
+}
+
+.footer .outer {
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color: #D0D2D3;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

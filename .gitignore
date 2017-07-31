@@ -1,0 +1,13 @@
+/.buildpath
+/.cache
+/.metadata
+/.project
+/.settings
+atlassian*
+/nbproject
+/sitemap
+/sitemap.xml
+/.idea
+/.gitattributes
+wp-config.php
+/wp-content/cache/*
